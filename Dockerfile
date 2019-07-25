@@ -5,7 +5,7 @@ MAINTAINER moqrin3
 USER root
 
 RUN apt-get update
-RUN apt-get -qq -y install gcc python-dev default-libmysqlclient-dev mysql-client
+RUN apt-get -qq -y install gcc python-dev default-libmysqlclient-dev default-mysql-client
 
 WORKDIR /app
 
